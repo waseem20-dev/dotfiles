@@ -6,8 +6,8 @@
 <div align="center">
   <img src="assests/screenshots/Wallpaper with style.jpg" width="800" alt="Desktop View">
   <br>
-  <img src="assets/screenshots/fastfetch.jpg" width="400" alt="Fastfetch Setup">
-  <img src="assets/screenshots/Multitasking.jpg" width="400" alt="Multitasking Mode">
+  <img src="assests/screenshots/fastfetch.jpg" width="400" alt="Fastfetch Setup">
+  <img src="assests/screenshots/Multitasking.jpg" width="400" alt="Multitasking Mode">
 </div>
 
 ## 👤 عن المشروع (Credits)
