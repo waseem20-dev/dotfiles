@@ -1,0 +1,97 @@
+/* Catppuccin Mocha Pink Theme for SwayNC */
+@define-color base   #1e1e2e;
+@define-color mantle #181825;
+@define-color crust  #11111b;
+@define-color text   #cdd6f4;
+@define-color pink   #f5c2e7; /* اللون الأساسي اللي اخترته */
+@define-color mauve  #cba6f7;
+@define-color red    #f38ba8;
+
+* {
+  font-family: "JetBrainsMono Nerd Font", sans-serif;
+  font-weight: bold;
+}
+
+.control-center {
+  background: @base;
+  border: 2px solid @pink; /* حدود بلون بينك */
+  border-radius: 12px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.notification {
+  background: @mantle;
+  border: 1px solid @pink;
+  border-radius: 10px;
+  color: @text;
+  margin: 8px;
+}
+
+.notification-content {
+  margin: 5px;
+}
+
+.notification-default-action:hover {
+  background: @pink;
+  color: @crust;
+}
+
+.control-center-clear-all {
+  color: @crust;
+  background: @pink;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.control-center-clear-all:hover {
+  background: @mauve;
+}
+
+.dnd-inhibitor {
+  color: @pink;
+}
+@define-color base-trans rgba(30, 30, 46, 0.7); /* شفافية 70% */
+@define-color pink #f5c2e7;
+@define-color mauve #cba6f7;
+@define-color text #cdd6f4;
+
+.control-center {
+  background: @base-trans;
+  border: 2px solid @pink;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+
+/* شكل الإشعارات داخل اللوحة */
+.notification {
+  background: rgba(24, 24, 37, 0.6); /* شفافية أكثر للإشعارات */
+  border-radius: 10px;
+  color: @text;
+  margin: 8px;
+  border: 1px solid rgba(245, 194, 231, 0.3);
+}
+
+/* شكل أزرار التحكم (Widgets) */
+.widget-buttons-grid {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 12px;
+  background: rgba(17, 17, 27, 0.5);
+}
+
+.widget-buttons-grid > div > button {
+  background: transparent;
+  border-radius: 8px;
+  color: @pink;
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.widget-buttons-grid > div > button:hover {
+  background: @pink;
+  color: #1e1e2e;
+}

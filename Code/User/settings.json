@@ -1,0 +1,7 @@
+{
+    "editor.fontFamily": "'Droid Sans Mono', monospace, 'JetBrainsMono Nerd Font'",
+    "terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font Mono'",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "catppuccin.accentColor": "lavender"
+}
