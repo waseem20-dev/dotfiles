@@ -4,7 +4,7 @@
 
 ## 📸 لقطات من النظام (Screenshots)
 <div align="center">
-  <img src="assets/screenshots/Wallpaper with style.jpg" width="800" alt="Desktop View">
+  <img src="assests/screenshots/Wallpaper with style.jpg" width="800" alt="Desktop View">
   <br>
   <img src="assets/screenshots/fastfetch.jpg" width="400" alt="Fastfetch Setup">
   <img src="assets/screenshots/Multitasking.jpg" width="400" alt="Multitasking Mode">
